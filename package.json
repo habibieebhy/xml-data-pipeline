@@ -1,0 +1,19 @@
+{
+  "name": "xml-data-pipeline",
+  "version": "1.0.0",
+  "description": "This project fetches vendor data in XML format from an accounting software hosted on `localhost:9000`, parses it, and renders it in a clean web interface using Flask. It’s designed for real-time collaboration between vendors and businesses. Future features include Google Sheets integration and role-based access control.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
